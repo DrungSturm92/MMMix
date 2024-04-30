@@ -1,6 +1,6 @@
 {
   "createdWith": "Open Stage Control",
-  "version": "1.25.5",
+  "version": "1.26.1",
   "type": "session",
   "content": {
     "type": "root",
@@ -132,7 +132,8 @@
             "sensitivity": 1,
             "steps": "",
             "origin": "auto",
-            "onTouch": ""
+            "onTouch": "",
+            "colorKnob": "auto"
           },
           {
             "type": "text",
@@ -173,7 +174,7 @@
           {
             "type": "knob",
             "top": 130,
-            "left": 230,
+            "left": 210,
             "lock": false,
             "id": "knob_2",
             "visible": true,
@@ -221,12 +222,13 @@
             "typeTags": "",
             "ignoreDefaults": false,
             "bypass": false,
-            "onTouch": ""
+            "onTouch": "",
+            "colorKnob": "auto"
           },
           {
             "type": "text",
             "top": 280,
-            "left": 240,
+            "left": 220,
             "lock": false,
             "id": "text_2",
             "visible": true,
@@ -262,7 +264,7 @@
           {
             "type": "knob",
             "top": 130,
-            "left": 450,
+            "left": 410,
             "lock": false,
             "id": "knob_3",
             "visible": true,
@@ -310,12 +312,13 @@
             "typeTags": "",
             "ignoreDefaults": false,
             "bypass": false,
-            "onTouch": ""
+            "onTouch": "",
+            "colorKnob": "auto"
           },
           {
             "type": "text",
             "top": 280,
-            "left": 460,
+            "left": 420,
             "lock": false,
             "id": "text_3",
             "visible": true,
@@ -351,7 +354,7 @@
           {
             "type": "knob",
             "top": 130,
-            "left": 670,
+            "left": 610,
             "lock": false,
             "id": "knob_4",
             "visible": true,
@@ -399,12 +402,13 @@
             "typeTags": "",
             "ignoreDefaults": false,
             "bypass": false,
-            "onTouch": ""
+            "onTouch": "",
+            "colorKnob": "auto"
           },
           {
             "type": "text",
             "top": 280,
-            "left": 680,
+            "left": 620,
             "lock": false,
             "id": "text_4",
             "visible": true,
@@ -488,7 +492,8 @@
             "typeTags": "",
             "ignoreDefaults": false,
             "bypass": false,
-            "onTouch": ""
+            "onTouch": "",
+            "colorKnob": "auto"
           },
           {
             "type": "text",
@@ -529,7 +534,7 @@
           {
             "type": "knob",
             "top": 410,
-            "left": 230,
+            "left": 210,
             "lock": false,
             "id": "knob_6",
             "visible": true,
@@ -577,12 +582,13 @@
             "typeTags": "",
             "ignoreDefaults": false,
             "bypass": false,
-            "onTouch": ""
+            "onTouch": "",
+            "colorKnob": "auto"
           },
           {
             "type": "text",
             "top": 560,
-            "left": 240,
+            "left": 220,
             "lock": false,
             "id": "text_6",
             "visible": true,
@@ -618,7 +624,7 @@
           {
             "type": "knob",
             "top": 410,
-            "left": 450,
+            "left": 410,
             "lock": false,
             "id": "knob_7",
             "visible": true,
@@ -666,12 +672,13 @@
             "typeTags": "",
             "ignoreDefaults": false,
             "bypass": false,
-            "onTouch": ""
+            "onTouch": "",
+            "colorKnob": "auto"
           },
           {
             "type": "text",
             "top": 560,
-            "left": 460,
+            "left": 420,
             "lock": false,
             "id": "text_7",
             "visible": true,
@@ -707,7 +714,7 @@
           {
             "type": "knob",
             "top": 410,
-            "left": 670,
+            "left": 610,
             "lock": false,
             "id": "knob_8",
             "visible": true,
@@ -755,12 +762,13 @@
             "typeTags": "",
             "ignoreDefaults": false,
             "bypass": false,
-            "onTouch": ""
+            "onTouch": "",
+            "colorKnob": "auto"
           },
           {
             "type": "text",
             "top": 560,
-            "left": 680,
+            "left": 620,
             "lock": false,
             "id": "text_8",
             "visible": true,
@@ -930,7 +938,7 @@
             "visible": true,
             "interaction": true,
             "comments": "",
-            "width": 440,
+            "width": 430,
             "height": 70,
             "expand": false,
             "colorText": "auto",
@@ -974,7 +982,8 @@
             "sensitivity": 1,
             "steps": "",
             "origin": "auto",
-            "onTouch": ""
+            "onTouch": "",
+            "colorKnob": "auto"
           },
           {
             "type": "fader",
@@ -1037,7 +1046,8 @@
             "bypass": false,
             "onCreate": "",
             "onValue": "",
-            "onTouch": ""
+            "onTouch": "",
+            "colorKnob": "auto"
           },
           {
             "type": "text",
@@ -1047,7 +1057,7 @@
             "id": "session",
             "visible": true,
             "comments": "",
-            "width": 390,
+            "width": 380,
             "height": 50,
             "expand": true,
             "colorText": "auto",
@@ -1078,12 +1088,12 @@
           {
             "type": "text",
             "top": 60,
-            "left": 630,
+            "left": 620,
             "lock": false,
             "id": "BBT",
             "visible": true,
             "comments": "",
-            "width": 190,
+            "width": 178.8235294117647,
             "height": 50,
             "expand": false,
             "colorText": "auto",
@@ -1114,13 +1124,13 @@
           {
             "type": "button",
             "top": 0,
-            "left": 630,
+            "left": 620,
             "lock": false,
             "id": "REC",
             "visible": true,
             "interaction": false,
             "comments": "",
-            "width": 90,
+            "width": 50,
             "height": 50,
             "expand": "false",
             "colorText": "auto",
@@ -1160,13 +1170,13 @@
           {
             "type": "button",
             "top": 0,
-            "left": 730,
+            "left": 670,
             "lock": false,
             "id": "PLAY",
             "visible": true,
             "interaction": false,
             "comments": "",
-            "width": 90,
+            "width": 50,
             "height": 50,
             "expand": "false",
             "colorText": "auto",
@@ -1307,10 +1317,57 @@
               }
             ],
             "tabs": []
+          },
+          {
+            "type": "button",
+            "top": 0,
+            "left": 720,
+            "lock": false,
+            "id": "SYNC",
+            "visible": true,
+            "interaction": true,
+            "comments": "",
+            "width": 80,
+            "height": 50,
+            "expand": "false",
+            "colorText": "auto",
+            "colorWidget": "auto",
+            "colorStroke": "auto",
+            "colorFill": "auto",
+            "alphaStroke": "auto",
+            "alphaFillOff": "auto",
+            "alphaFillOn": "auto",
+            "lineWidth": "auto",
+            "borderRadius": 10,
+            "padding": "auto",
+            "html": "",
+            "css": "",
+            "colorTextOn": "auto",
+            "label": "SYNC",
+            "vertical": false,
+            "wrap": false,
+            "on": 2096,
+            "off": 0,
+            "mode": "tap",
+            "doubleTap": false,
+            "decoupled": false,
+            "value": "",
+            "default": "",
+            "linkId": "",
+            "address": "/set_surface/feedback",
+            "preArgs": "",
+            "typeTags": "",
+            "decimals": 2,
+            "target": "",
+            "ignoreDefaults": false,
+            "bypass": false,
+            "onCreate": "",
+            "onValue": ""
           }
         ],
         "tabs": []
       }
-    ]
+    ],
+    "onPreload": ""
   }
 }
