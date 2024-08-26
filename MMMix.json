@@ -1,6 +1,6 @@
 {
   "createdWith": "Open Stage Control",
-  "version": "1.25.5",
+  "version": "1.26.1",
   "type": "session",
   "content": {
     "type": "root",
@@ -262,7 +262,8 @@
             "sensitivity": 1,
             "steps": "",
             "origin": "auto",
-            "onTouch": ""
+            "onTouch": "",
+            "colorKnob": "auto"
           },
           {
             "type": "text",
@@ -472,7 +473,7 @@
             "ignoreDefaults": false,
             "bypass": false,
             "onCreate": "",
-            "onValue": "send(\"/set_surface\", {type: \"f\", value: 0}, {type: \"f\", value: 159}, {type: \"f\", value: 16432})\nsend(\"/strip/list\")\nsend(\"/cue/connect\")"
+            "onValue": "//send(\"/set_surface\", {type: \"f\", value: 0}, {type: \"f\", value: 0}, {type: \"f\", value: 16432})\nsend(\"/set_surface/feedback\", {type: \"f\", value: 16432})\nsend(\"/strip/list\")\nsend(\"/cue/connect\")"
           },
           {
             "type": "modal",
@@ -481,7 +482,7 @@
             "lock": false,
             "id": "MANUAL",
             "visible": true,
-            "interaction": false,
+            "interaction": true,
             "comments": "",
             "width": "6%",
             "height": "7.5%",
@@ -511,10 +512,10 @@
             "bypass": false,
             "onCreate": "",
             "onValue": "",
-            "popupWidth": "50%",
-            "popupHeight": "30%",
-            "popupLeft": "auto",
-            "popupTop": "auto",
+            "popupWidth": "85%",
+            "popupHeight": "40%",
+            "popupLeft": "10%",
+            "popupTop": "20%",
             "relative": false,
             "ignoreTabs": false,
             "colorBg": "auto",
@@ -532,15 +533,15 @@
             "widgets": [
               {
                 "type": "textarea",
-                "top": 10,
-                "left": 10,
+                "top": "4.5%",
+                "left": "1.96%",
                 "lock": false,
                 "id": "textarea_1",
                 "visible": true,
                 "interaction": true,
                 "comments": "",
-                "width": 330,
-                "height": 110,
+                "width": "96.08%",
+                "height": "90.09%",
                 "expand": "false",
                 "colorText": "auto",
                 "colorWidget": "auto",
@@ -550,11 +551,11 @@
                 "alphaFillOff": "auto",
                 "alphaFillOn": "auto",
                 "lineWidth": "auto",
-                "borderRadius": "auto",
+                "borderRadius": 10,
                 "padding": "auto",
                 "html": "",
-                "css": "",
-                "value": "qweqweqwe asdasd qweqweasdasd asd ",
+                "css": "font-size: 18rem;\nline-height:1.25;\ntext-align-last: center;",
+                "value": "\nEVERYTHING SHOULD BE SELF EXPLANATORY BUT...\n\n\nPREV & NEXT: CHANGE FOLDBACK SELECTION.\nSYNC: GET NEW DATA IF SOMETHING IS NOT RIGHT.",
                 "default": "",
                 "linkId": "",
                 "address": "auto",
@@ -607,12 +608,12 @@
             "bypass": false,
             "onCreate": "",
             "onValue": "",
-            "popupWidth": "50%",
-            "popupHeight": "30%",
-            "popupLeft": "auto",
-            "popupTop": "auto",
+            "popupWidth": "85%",
+            "popupHeight": "40%",
+            "popupLeft": "10%",
+            "popupTop": "20%",
             "relative": false,
-            "ignoreTabs": false,
+            "ignoreTabs": true,
             "colorBg": "auto",
             "layout": "default",
             "justify": "center",
@@ -622,20 +623,20 @@
             "innerPadding": true,
             "tabsPosition": "top",
             "popupLabel": "BUY ME A COFFEE",
-            "popupPadding": "auto",
+            "popupPadding": -1,
             "variables": "@{parent.variables}",
             "traversing": false,
             "widgets": [
               {
                 "type": "textarea",
-                "top": 20,
-                "left": 10,
+                "top": "7%",
+                "left": "2%",
                 "lock": false,
                 "id": "MESSAGE",
                 "visible": true,
                 "comments": "",
-                "width": 500,
-                "height": 110,
+                "width": "95%",
+                "height": "45.45%",
                 "expand": true,
                 "colorText": "auto",
                 "colorWidget": "auto",
@@ -665,15 +666,15 @@
               },
               {
                 "type": "button",
-                "top": 150,
-                "left": 160,
+                "top": "61.98%",
+                "left": "27.18%",
                 "lock": false,
                 "id": "button_1",
                 "visible": true,
                 "interaction": true,
                 "comments": "",
-                "width": 210,
-                "height": 70,
+                "width": "40%",
+                "height": "22%",
                 "expand": "false",
                 "colorText": "auto",
                 "colorWidget": "auto",
@@ -885,7 +886,8 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": ""
+                    "onTouch": "",
+                    "colorKnob": "auto"
                   },
                   {
                     "type": "text",
@@ -974,7 +976,8 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": ""
+                    "onTouch": "",
+                    "colorKnob": "auto"
                   },
                   {
                     "type": "text",
@@ -1063,7 +1066,8 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": ""
+                    "onTouch": "",
+                    "colorKnob": "auto"
                   },
                   {
                     "type": "knob",
@@ -1116,7 +1120,8 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": ""
+                    "onTouch": "",
+                    "colorKnob": "auto"
                   },
                   {
                     "type": "text",
@@ -1205,7 +1210,8 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": ""
+                    "onTouch": "",
+                    "colorKnob": "auto"
                   },
                   {
                     "type": "text",
@@ -1294,7 +1300,8 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": ""
+                    "onTouch": "",
+                    "colorKnob": "auto"
                   },
                   {
                     "type": "text",
@@ -1383,7 +1390,8 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": ""
+                    "onTouch": "",
+                    "colorKnob": "auto"
                   },
                   {
                     "type": "text",
@@ -1472,7 +1480,8 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": ""
+                    "onTouch": "",
+                    "colorKnob": "auto"
                   },
                   {
                     "type": "text",
@@ -1638,7 +1647,8 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": ""
+                    "onTouch": "",
+                    "colorKnob": "auto"
                   },
                   {
                     "type": "text",
@@ -1727,7 +1737,8 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": ""
+                    "onTouch": "",
+                    "colorKnob": "auto"
                   },
                   {
                     "type": "text",
@@ -1816,7 +1827,8 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": ""
+                    "onTouch": "",
+                    "colorKnob": "auto"
                   },
                   {
                     "type": "text",
@@ -1905,7 +1917,8 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": ""
+                    "onTouch": "",
+                    "colorKnob": "auto"
                   },
                   {
                     "type": "text",
@@ -1994,7 +2007,8 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": ""
+                    "onTouch": "",
+                    "colorKnob": "auto"
                   },
                   {
                     "type": "text",
@@ -2083,7 +2097,8 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": ""
+                    "onTouch": "",
+                    "colorKnob": "auto"
                   },
                   {
                     "type": "text",
@@ -2172,7 +2187,8 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": ""
+                    "onTouch": "",
+                    "colorKnob": "auto"
                   },
                   {
                     "type": "text",
@@ -2261,7 +2277,8 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": ""
+                    "onTouch": "",
+                    "colorKnob": "auto"
                   }
                 ],
                 "tabs": []
@@ -2391,7 +2408,8 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": ""
+                    "onTouch": "",
+                    "colorKnob": "auto"
                   },
                   {
                     "type": "text",
@@ -2480,7 +2498,8 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": ""
+                    "onTouch": "",
+                    "colorKnob": "auto"
                   },
                   {
                     "type": "text",
@@ -2569,7 +2588,8 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": ""
+                    "onTouch": "",
+                    "colorKnob": "auto"
                   },
                   {
                     "type": "text",
@@ -2658,7 +2678,8 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": ""
+                    "onTouch": "",
+                    "colorKnob": "auto"
                   },
                   {
                     "type": "text",
@@ -2747,7 +2768,8 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": ""
+                    "onTouch": "",
+                    "colorKnob": "auto"
                   },
                   {
                     "type": "text",
@@ -2836,7 +2858,8 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": ""
+                    "onTouch": "",
+                    "colorKnob": "auto"
                   },
                   {
                     "type": "text",
@@ -2925,7 +2948,8 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": ""
+                    "onTouch": "",
+                    "colorKnob": "auto"
                   },
                   {
                     "type": "text",
@@ -3014,7 +3038,8 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": ""
+                    "onTouch": "",
+                    "colorKnob": "auto"
                   }
                 ],
                 "tabs": []
@@ -3138,6 +3163,7 @@
         ],
         "tabs": []
       }
-    ]
+    ],
+    "onPreload": ""
   }
 }
