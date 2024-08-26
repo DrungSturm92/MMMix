@@ -39,7 +39,7 @@
     "target": "",
     "ignoreDefaults": false,
     "bypass": true,
-    "onCreate": "send(\"/set_surface\", {type: \"f\", value: 0}, {type: \"f\", value: 159}, {type: \"f\", value: 16432})",
+    "onCreate": "send(\"/set_surface/feedback\", {type: \"f\", value: 16432})",
     "onValue": "",
     "widgets": [],
     "tabs": [
@@ -473,7 +473,7 @@
             "ignoreDefaults": false,
             "bypass": false,
             "onCreate": "",
-            "onValue": "//send(\"/set_surface\", {type: \"f\", value: 0}, {type: \"f\", value: 0}, {type: \"f\", value: 16432})\nsend(\"/set_surface/feedback\", {type: \"f\", value: 16432})\nsend(\"/strip/list\")\nsend(\"/cue/connect\")"
+            "onValue": "//send(\"/set_surface\", {type: \"f\", value: 0}, {type: \"f\", value: 0}, {type: \"f\", value: 16432})\nsend(\"/set_surface/feedback\", {type: \"f\", value: 16432})\n//send(\"/strip/list\")\nsend(\"/cue/connect\")"
           },
           {
             "type": "modal",
