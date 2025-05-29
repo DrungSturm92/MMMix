@@ -1,0 +1,7 @@
+Vista de plugins
+Vista Meterbridge
+Collect/Spill Buses y VCAs
+Agregar medidores
+Cambiar Faders por Knobs
+Visualizar tiempo en diferentes formatos
+Agregar archivos debug
