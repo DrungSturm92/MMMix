@@ -1,6 +1,6 @@
 {
   "createdWith": "Open Stage Control",
-  "version": "1.26.1",
+  "version": "1.25.5",
   "type": "session",
   "content": {
     "type": "root",
@@ -39,7 +39,7 @@
     "target": "",
     "ignoreDefaults": false,
     "bypass": true,
-    "onCreate": "send(\"/set_surface/feedback\", {type: \"f\", value: 16432})",
+    "onCreate": "// send(\"/set_surface/feedback\", {type: \"f\", value: 16432})",
     "onValue": "",
     "widgets": [],
     "tabs": [
@@ -262,8 +262,7 @@
             "sensitivity": 1,
             "steps": "",
             "origin": "auto",
-            "onTouch": "",
-            "colorKnob": "auto"
+            "onTouch": ""
           },
           {
             "type": "text",
@@ -473,7 +472,7 @@
             "ignoreDefaults": false,
             "bypass": false,
             "onCreate": "",
-            "onValue": "//send(\"/set_surface\", {type: \"f\", value: 0}, {type: \"f\", value: 0}, {type: \"f\", value: 16432})\nsend(\"/set_surface/feedback\", {type: \"f\", value: 16432})\n//send(\"/strip/list\")\nsend(\"/cue/connect\")"
+            "onValue": "//send(\"/set_surface\", {type: \"f\", value: 0}, {type: \"f\", value: 0}, {type: \"f\", value: 16432})\nsend(\"/set_surface/strip_types\", {type: \"f\", value: 159})\nsend(\"/set_surface/feedback\", {type: \"f\", value: 16432})\nsend(\"/strip/list\")\nsend(\"/cue/connect\")"
           },
           {
             "type": "modal",
@@ -886,8 +885,7 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": "",
-                    "colorKnob": "auto"
+                    "onTouch": ""
                   },
                   {
                     "type": "text",
@@ -976,8 +974,7 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": "",
-                    "colorKnob": "auto"
+                    "onTouch": ""
                   },
                   {
                     "type": "text",
@@ -1066,8 +1063,7 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": "",
-                    "colorKnob": "auto"
+                    "onTouch": ""
                   },
                   {
                     "type": "knob",
@@ -1120,8 +1116,7 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": "",
-                    "colorKnob": "auto"
+                    "onTouch": ""
                   },
                   {
                     "type": "text",
@@ -1210,8 +1205,7 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": "",
-                    "colorKnob": "auto"
+                    "onTouch": ""
                   },
                   {
                     "type": "text",
@@ -1300,8 +1294,7 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": "",
-                    "colorKnob": "auto"
+                    "onTouch": ""
                   },
                   {
                     "type": "text",
@@ -1390,8 +1383,7 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": "",
-                    "colorKnob": "auto"
+                    "onTouch": ""
                   },
                   {
                     "type": "text",
@@ -1480,8 +1472,7 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": "",
-                    "colorKnob": "auto"
+                    "onTouch": ""
                   },
                   {
                     "type": "text",
@@ -1647,8 +1638,7 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": "",
-                    "colorKnob": "auto"
+                    "onTouch": ""
                   },
                   {
                     "type": "text",
@@ -1737,8 +1727,7 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": "",
-                    "colorKnob": "auto"
+                    "onTouch": ""
                   },
                   {
                     "type": "text",
@@ -1827,8 +1816,7 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": "",
-                    "colorKnob": "auto"
+                    "onTouch": ""
                   },
                   {
                     "type": "text",
@@ -1917,8 +1905,7 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": "",
-                    "colorKnob": "auto"
+                    "onTouch": ""
                   },
                   {
                     "type": "text",
@@ -2007,8 +1994,7 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": "",
-                    "colorKnob": "auto"
+                    "onTouch": ""
                   },
                   {
                     "type": "text",
@@ -2097,8 +2083,7 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": "",
-                    "colorKnob": "auto"
+                    "onTouch": ""
                   },
                   {
                     "type": "text",
@@ -2187,8 +2172,7 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": "",
-                    "colorKnob": "auto"
+                    "onTouch": ""
                   },
                   {
                     "type": "text",
@@ -2277,8 +2261,7 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": "",
-                    "colorKnob": "auto"
+                    "onTouch": ""
                   }
                 ],
                 "tabs": []
@@ -2408,8 +2391,7 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": "",
-                    "colorKnob": "auto"
+                    "onTouch": ""
                   },
                   {
                     "type": "text",
@@ -2498,8 +2480,7 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": "",
-                    "colorKnob": "auto"
+                    "onTouch": ""
                   },
                   {
                     "type": "text",
@@ -2588,8 +2569,7 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": "",
-                    "colorKnob": "auto"
+                    "onTouch": ""
                   },
                   {
                     "type": "text",
@@ -2678,8 +2658,7 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": "",
-                    "colorKnob": "auto"
+                    "onTouch": ""
                   },
                   {
                     "type": "text",
@@ -2768,8 +2747,7 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": "",
-                    "colorKnob": "auto"
+                    "onTouch": ""
                   },
                   {
                     "type": "text",
@@ -2858,8 +2836,7 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": "",
-                    "colorKnob": "auto"
+                    "onTouch": ""
                   },
                   {
                     "type": "text",
@@ -2948,8 +2925,7 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": "",
-                    "colorKnob": "auto"
+                    "onTouch": ""
                   },
                   {
                     "type": "text",
@@ -3038,8 +3014,7 @@
                     "typeTags": "",
                     "ignoreDefaults": false,
                     "bypass": false,
-                    "onTouch": "",
-                    "colorKnob": "auto"
+                    "onTouch": ""
                   }
                 ],
                 "tabs": []
@@ -3053,7 +3028,7 @@
         "type": "tab",
         "lock": false,
         "id": "tab_4",
-        "visible": false,
+        "visible": true,
         "interaction": true,
         "comments": "",
         "colorText": "auto",
@@ -3087,6 +3062,24 @@
         "onCreate": "",
         "onValue": "",
         "widgets": [
+          {
+            "type": "variable",
+            "lock": false,
+            "id": "variable_2",
+            "comments": "",
+            "value": "JS{\nvar flatarray = @{this.address};\nvar i = 0;\nif (flatarray[0] == \"AT\") {\ni = i + 1\n}\nreturn i\n}",
+            "default": "",
+            "linkId": "",
+            "address": "/reply",
+            "preArgs": "",
+            "typeTags": "",
+            "decimals": 2,
+            "target": "",
+            "ignoreDefaults": false,
+            "bypass": false,
+            "onCreate": "",
+            "onValue": ""
+          },
           {
             "type": "variable",
             "lock": false,
@@ -3129,25 +3122,7 @@
             "padding": "auto",
             "html": "",
             "css": "",
-            "value": "JS{\nvar flatarray = @{this.address};\nvar i = 0;\nif (flatarray[0] == \"AT\") {\ni = i + 1\n}\nreturn i\n}",
-            "default": "",
-            "linkId": "",
-            "address": "/reply",
-            "preArgs": "",
-            "typeTags": "",
-            "decimals": 2,
-            "target": "",
-            "ignoreDefaults": false,
-            "bypass": false,
-            "onCreate": "",
-            "onValue": ""
-          },
-          {
-            "type": "variable",
-            "lock": false,
-            "id": "variable_2",
-            "comments": "",
-            "value": "JS{\nvar flatarray = @{this.address};\nvar i = 0;\nif (flatarray[0] == \"AT\") {\ni = i + 1\n}\nreturn i\n}",
+            "value": "",
             "default": "",
             "linkId": "",
             "address": "/reply",
@@ -3163,7 +3138,6 @@
         ],
         "tabs": []
       }
-    ],
-    "onPreload": ""
+    ]
   }
 }
